@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+const regs = require('../utils/validators');
 
 // new UserSchema
 const UserSchema = new Schema({
@@ -9,7 +10,8 @@ const UserSchema = new Schema({
     },
     mobile: {
         type: String,
-        required: [true, 'Mobile is required']
+        required: [true, 'Mobile is required'],
+        validate: [regs.mobileValidator, 'Mobile validate error']
     },
     password: {
         type: String,

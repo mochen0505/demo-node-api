@@ -14,7 +14,9 @@ router.post('/signup', function(req, res, next) {
         available: req.body.available
     }).then((user) => {
         res.send(user);
-    }).catch(next);
+    }).catch((next)=>{
+        res.send(next)
+    });
 });
 
 module.exports = router;
