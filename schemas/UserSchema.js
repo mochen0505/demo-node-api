@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const regs = require('../utils/validators');
 
 // new UserSchema
 const UserSchema = new Schema({
@@ -10,16 +9,16 @@ const UserSchema = new Schema({
     },
     mobile: {
         type: String,
-        required: [true, 'Mobile is required'],
-        validate: [regs.mobileValidator, 'Mobile validate error']
+        required: true
     },
     password: {
         type: String,
-        required: [true, 'Password is required']
+        required: true
     },
-    available: {
-        type: Boolean,
-        default: false
+    role: {
+        type: String,
+        enum: ['client', 'admin'],
+        default: 'client'
     }
 });
 module.exports = UserSchema;
