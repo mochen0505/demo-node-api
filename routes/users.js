@@ -6,7 +6,7 @@ const regs = require('../utils/validators');
 // import models
 const User = require('../models/User');
 
-// POST request
+// user sign up
 router.post('/signup', function(req, res, next) {
     const {body} = req;
     const {name, mobile, password, role} = body;
@@ -14,14 +14,14 @@ router.post('/signup', function(req, res, next) {
     if (!name || !mobile || !password) {
         return res.send({
             success: false,
-            message: 'Error: Required input cannot be blank'
+            message: 'Required input cannot be blank'
         });
     }
 
     if (!regs.mobileValidator(mobile)) {
         return res.send({
             success: false,
-            message: 'Error: Bad mobile'
+            message: 'Bad mobile'
         });
     }
 
@@ -31,7 +31,7 @@ router.post('/signup', function(req, res, next) {
         if (prevUsers.length > 0) {
             return res.send({
                 success: false,
-                message: 'Error: account already exist'
+                message: 'Account already exist'
             })
         }
         User.create({
@@ -47,15 +47,20 @@ router.post('/signup', function(req, res, next) {
         }).catch(err => {
             return res.send({
                 success: false,
-                message: 'Error: server error'
+                message: 'Server error'
             })
         });
     }).catch(err => {
         return res.send({
             success: false,
-            message: 'Error: server error'
+            message: 'Server error'
         })
     });
+});
+
+// user sign in
+router.post('/signin', function(req, res, next) {
+
 });
 
 module.exports = router;
