@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="minor change">
-      <change beforePath="$PROJECT_DIR$/.idea/demo-node-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo-node-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mongoSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mongoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/checkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware/checkAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/UserSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/UserSchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/www" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
               <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -54,7 +47,7 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="189">
               <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
@@ -115,7 +108,6 @@
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/models/User.js" />
         <option value="$PROJECT_DIR$/config/mongoose.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/utils/reg.js" />
         <option value="$PROJECT_DIR$/utils/regs.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -132,6 +124,8 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/controllers/users.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/bin/www" />
       </list>
     </option>
   </component>
@@ -149,437 +143,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/abbrev/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/aproba/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/are-we-there-yet/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/chownr/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/code-point-at/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/console-control-strings/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/deep-extend/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/delegates/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/detect-libc/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/fs-minipass/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/gauge/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/has-unicode/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/ignore-walk/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/minipass/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/minipass/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/minizlib/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/needle/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/node-pre-gyp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/nopt/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/npm-bundled/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/npm-packlist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/npmlog/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/number-is-nan/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/os-homedir/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/os-tmpdir/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/osenv/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/rc/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/rc/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/rimraf/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/sax/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/set-blocking/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/strip-json-comments/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/tar/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/tar/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/wide-align/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/node_modules/wrappy/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bcrypt/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/binary-extensions/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bluebird/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/boxen/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/boxen/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/braces/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bson/browser_build/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bson/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cache-base/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/capture-stack-trace/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/center-align/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/character-parser/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ci-info/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/class-utils/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/class-utils/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/clean-css/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cli-boxes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/collection-visit/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/component-emitter/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/configstore/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/constantinople/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cookie-parser/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/copy-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/core-js/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/create-error-class/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cross-spawn/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/crypto-random-string/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/decamelize/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/decode-uri-component/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/deep-extend/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/define-property/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/define-property/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/doctypes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/dot-prop/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/dotenv/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/duplexer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/duplexer3/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/esutils/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/etag/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/event-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/execa/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fill-range/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/for-in/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/forwarded/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fragment-cache/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/from/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/function-bind/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/get-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/get-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/glob-parent/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/global-dirs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/got/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/graceful-readlink/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-values/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ignore-by-default/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/import-lazy/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/imurmurhash/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-binary-path/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-ci/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-expression/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-expression/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-installed-globally/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-npm/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-obj/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-odd/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-odd/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-path-inside/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-plain-object/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-promise/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-redirect/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-retry-allowed/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-windows/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/isexe/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/js-stringify/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jstransformer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jwa/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jws/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/kareem/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/latest-version/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lazy-cache/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.get/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.includes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isboolean/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isinteger/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isnumber/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isplainobject/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isstring/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.once/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/longest/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lowercase-keys/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lru-cache/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/make-dir/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/map-cache/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/map-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/map-visit/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/micromatch/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mixin-deep/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongodb-core/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongodb/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose-legacy-pluralize/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose/examples/aggregate/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose/examples/geospatial/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose/examples/lean/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose/examples/mapreduce/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose/examples/promises/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose/examples/querybuilder/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose/examples/replicasets/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mongoose/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/morgan/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mpath/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mquery/node_modules/sliced/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mquery/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nan/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nan/tools/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nanomatch/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nanomatch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nodemon/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nodemon/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nopt/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/npm-run-path/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object-copy/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object-copy/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object-visit/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/object.pick/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/on-headers/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/p-finally/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/package-json/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pascalcase/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-dirname/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-is-inside/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-key/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-parse/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pause-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/posix-character-classes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/prepend-http/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/promise/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/proxy-addr/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ps-tree/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pseudomap/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pstree.remy/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-attrs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-code-gen/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-error/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-filters/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-lexer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-linker/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-load/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-parser/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-runtime/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-strip-comments/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug-walk/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pug/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/raw-body/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/raw-body/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/raw-body/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/rc/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/readdirp/examples/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/readdirp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regenerator-runtime/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regex-not/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/regexp-clone/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/registry-auth-token/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/registry-url/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/remove-trailing-separator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/repeat-element/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/require_optional/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/require_optional/test/nestedTest/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve-from/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve-url/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/browser_field/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/resolve/test/resolver/incorrect_main/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ret/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/right-align/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/safe-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/semver-diff/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/set-immediate-shim/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/set-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/shebang-command/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/shebang-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/sliced/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-node/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon-util/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/snapdragon/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/source-map-resolve/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/source-map-url/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/split-string/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/split/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/static-extend/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/static-extend/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/stream-combiner/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/strip-eof/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/strip-json-comments/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/term-size/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/through/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/timed-out/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/to-fast-properties/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/to-object-path/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/to-regex-range/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/to-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/token-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/touch/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/uglify-js/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/uglify-js/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/uglify-to-browserify/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/undefsafe/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/union-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/union-value/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/union-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unique-string/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unset-value/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unset-value/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unzip-response/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/upath/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/update-notifier/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/urix/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/url-parse-lax/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/use/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/use/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/vary/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/void-elements/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/which/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/widest-line/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/window-size/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/with/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/wordwrap/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/write-file-atomic/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/xdg-basedir/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
@@ -595,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -607,6 +174,12 @@
               <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
@@ -648,16 +221,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-react-admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bin/www" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -675,6 +250,18 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="$PROJECT_DIR$/src/bin/www">
+      <envs>
+        <env name="DEBUG" value="demo-node-api:*" />
+      </envs>
+    </configuration>
+    <configuration name="start" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="src/bin/www" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="DEBUG" value="demo-node-api:*" />
+      </envs>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -712,6 +299,7 @@
       <workItem from="1530669494077" duration="12732000" />
       <workItem from="1530755614893" duration="5634000" />
       <workItem from="1530762327147" duration="1629000" />
+      <workItem from="1530773256264" duration="2601000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1528390662552</created>
@@ -762,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530761072214</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="minor change">
+      <created>1530775107398</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530775107398</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87239000" />
+    <option name="totallyTimeSpent" value="89840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,21 +374,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.29060403" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.34045583" />
-      <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32905984" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32905984" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -801,6 +396,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1059,23 +655,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/utils.js" />
     <entry file="file://$PROJECT_DIR$/nodemon.json" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1098,9 +678,6 @@
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/www">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1146,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="189">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
@@ -1158,10 +735,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="357">
+            <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
         </state>
       </provider>
     </entry>

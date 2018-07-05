@@ -19,3 +19,5 @@ demo-node-api
     ```Bash
     npm start
     ```
+    
+* The App will be running on localhost:3001
