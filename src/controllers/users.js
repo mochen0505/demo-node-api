@@ -59,7 +59,7 @@ module.exports = {
                 message: 'Required input cannot be blank'
             });
         }
-        if (!regs.mobileValidator(mobile)) {
+        if (!utils.mobileValidator(mobile)) {
             return res.send({
                 success: false,
                 message: 'Bad mobile'
