@@ -8,9 +8,14 @@ demo-node-api
     ```Bash
     npm install
     ```
-* Install Mongodb and run your db on localhost:27017
+* Install [Mongodb](https://www.mongodb.com/download-center) and run your db on localhost:27017
 
-* Run the app
+### Run the App ###
+
+* For WebStorm users:  
+    In _Edit Configurations_, set _JavaScript file_ to _src/bin/www_, and set _Environment Variables_ to _DEBUG=demo-node-api:\*_
+ 
+* For all users, just run:
     ```Bash
     npm start
     ```
