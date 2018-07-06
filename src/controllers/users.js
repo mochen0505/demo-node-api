@@ -6,7 +6,7 @@ const User = require('../models/User');
 
 module.exports = {
     userSignup: (req, res, next) => {
-        const {name, mobile, password, role} = req.body;
+        const {name, mobile, password} = req.body;
         if (!name || !mobile || !password) {
             return res.send({
                 success: false,
@@ -32,7 +32,6 @@ module.exports = {
                 name: name,
                 mobile: mobile,
                 password: utils.generateHash(password),
-                role: role,
             }).then(user => {
                 const token = jwt.sign({userId: user._id, username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
                 return res.send({
