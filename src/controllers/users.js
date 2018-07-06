@@ -34,9 +34,11 @@ module.exports = {
                 password: utils.generateHash(password),
                 role: role,
             }).then(user => {
+                const token = jwt.sign({userId: user._id, username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
                 return res.send({
                     success: true,
-                    message: 'Signed up'
+                    message: 'Signed up',
+                    data:{token}
                 })
             }).catch(err => {
                 return res.send({
@@ -85,7 +87,7 @@ module.exports = {
                 return res.send({
                     success: true,
                     message: 'Success',
-                    token
+                    data:{token}
                 })
             }
         }).catch(err => {
