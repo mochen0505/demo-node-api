@@ -5,6 +5,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
 module.exports = {
+    //TODO: ccap captcha
     userSignup: (req, res, next) => {
         const {name, mobile, password} = req.body;
         if (!name || !mobile || !password) {
@@ -97,6 +98,7 @@ module.exports = {
         });
     },
     getUserProfile: (req, res, next) => {
+        //TODO
         return res.send({
             success: true
         });
