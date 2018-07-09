@@ -6,7 +6,7 @@ module.exports = (req, res, next) => {
         jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
             if (err) {
                 return res.send({
-                    success: false,
+                    code: 2000,
                     message: 'Auth failed'
                 })
             } else {
@@ -16,7 +16,7 @@ module.exports = (req, res, next) => {
         })
     } else {
         return res.send({
-            success: false,
+            code: 2000,
             message: 'Auth failed'
         })
     }

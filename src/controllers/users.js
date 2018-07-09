@@ -1,6 +1,13 @@
 const utils = require('../utils/utils');
 const jwt = require('jsonwebtoken');
 
+/**
+ * 状态码说明
+ * 1000：成功
+ * 2000：权限错误
+ * 3000：业务参数错误
+ */
+
 // import models
 const User = require('../models/User');
 
@@ -10,13 +17,13 @@ module.exports = {
         const {name, mobile, password} = req.body;
         if (!name || !mobile || !password) {
             return res.send({
-                success: false,
+                code: 3000,
                 message: 'Required input cannot be blank'
             });
         }
         if (!utils.mobileValidator(mobile)) {
             return res.send({
-                success: false,
+                code: 3000,
                 message: 'Bad mobile'
             });
         }
@@ -25,7 +32,7 @@ module.exports = {
         }).then(users => {
             if (users.length > 0) {
                 return res.send({
-                    success: false,
+                    code: 3000,
                     message: 'Account already exist'
                 })
             }
@@ -36,19 +43,19 @@ module.exports = {
             }).then(user => {
                 const token = jwt.sign({userId: user._id, username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
                 return res.send({
-                    success: true,
+                    code: 1000,
                     message: 'Signed up',
                     data:{token}
                 })
             }).catch(err => {
                 return res.send({
-                    success: false,
+                    code: 3000,
                     message: 'Server error'
                 })
             });
         }).catch(err => {
             return res.send({
-                success: false,
+                code: 3000,
                 message: 'Server error'
             })
         });
@@ -57,13 +64,13 @@ module.exports = {
         const {mobile, password} = req.body;
         if (!mobile || !password) {
             return res.send({
-                success: false,
+                code: 3000,
                 message: 'Required input cannot be blank'
             });
         }
         if (!utils.mobileValidator(mobile)) {
             return res.send({
-                success: false,
+                code: 3000,
                 message: 'Bad mobile'
             });
         }
@@ -72,27 +79,27 @@ module.exports = {
         }).then(users => {
             if (users.length !== 1) {
                 return res.send({
-                    success: false,
+                    code: 3000,
                     message: 'Auth failed'
                 })
             }
             const user = users[0];
             if (!utils.validPassword(password, user.password)) {
                 return res.send({
-                    success: false,
+                    code: 3000,
                     message: 'Auth failed'
                 })
             } else {
                 const token = jwt.sign({userId: user._id, username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
                 return res.send({
-                    success: true,
+                    code: 1000,
                     message: 'Success',
                     data:{token}
                 })
             }
         }).catch(err => {
             return res.send({
-                success: false,
+                code: 3000,
                 message: 'Server error'
             })
         });
@@ -100,7 +107,7 @@ module.exports = {
     getUserProfile: (req, res, next) => {
         //TODO
         return res.send({
-            success: true
+            code: 1000
         });
     }
 };
