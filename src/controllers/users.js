@@ -2,10 +2,10 @@ const utils = require('../utils/utils');
 const jwt = require('jsonwebtoken');
 
 /**
- * 状态码说明
- * 1000：成功
- * 2000：权限错误
- * 3000：业务参数错误
+ * code explanation
+ * 1000：succeed
+ * 2000：authentication error
+ * 3000：other error
  */
 
 // import models
