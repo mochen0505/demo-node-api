@@ -15,7 +15,7 @@ demo-node-api
 * For WebStorm users:  
     In _Edit Configurations_, set _JavaScript file_ to _src/bin/www_, and set _Environment Variables_ to _DEBUG=demo-node-api:\*_
  
-* For all users, just run:
+* For all users, simply run:
     ```Bash
     npm start
     ```
