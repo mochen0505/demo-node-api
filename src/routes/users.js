@@ -3,6 +3,9 @@ const router = express.Router();
 const checkAuth = require('../middleware/checkAuth');
 const UsersController = require('../controllers/users');
 
+// user sign up captcha
+router.post('/getSmsCaptcha', UsersController.signupCaptcha);
+
 // user sign up
 router.post('/signup', UsersController.userSignup);
 

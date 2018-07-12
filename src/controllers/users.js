@@ -10,12 +10,12 @@ const jwt = require('jsonwebtoken');
 
 // import models
 const User = require('../models/User');
+const CAPTCHA = '123456';
 
 module.exports = {
-    //TODO: captcha
-    userSignup: (req, res, next) => {
-        const {name, mobile, password} = req.body;
-        if (!name || !mobile || !password) {
+    signupCaptcha: (req, res, next) => {
+        const {mobile} = req.body;
+        if (!mobile) {
             return res.send({
                 code: 3000,
                 message: 'Required input cannot be blank'
@@ -24,7 +24,7 @@ module.exports = {
         if (!utils.mobileValidator(mobile)) {
             return res.send({
                 code: 3000,
-                message: 'Bad mobile'
+                message: 'Bad input'
             });
         }
         User.find({
@@ -36,22 +36,10 @@ module.exports = {
                     message: 'Account already exist'
                 })
             }
-            User.create({
-                name: name,
-                mobile: mobile,
-                password: utils.generateHash(password),
-            }).then(user => {
-                const token = jwt.sign({userId: user._id, username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
-                return res.send({
-                    code: 1000,
-                    message: 'Signed up',
-                    data:{token}
-                })
-            }).catch(err => {
-                return res.send({
-                    code: 3000,
-                    message: 'Server error'
-                })
+            return res.send({
+                code: 1000,
+                message: 'Success',
+                data: {code: '123456'}
             });
         }).catch(err => {
             return res.send({
@@ -59,6 +47,70 @@ module.exports = {
                 message: 'Server error'
             })
         });
+    },
+    userSignup: (req, res, next) => {
+        const {name, mobile, password, confirmPassword, captcha} = req.body;
+        if (!name || !mobile || !password || !confirmPassword || !captcha) {
+            return res.send({
+                code: 3000,
+                message: 'Required input cannot be blank'
+            });
+        }
+        if (!utils.nameValidator(name) || !utils.mobileValidator(mobile) || !utils.passValidator(password) || !utils.passValidator(confirmPassword) || !utils.confirmPassword(password, confirmPassword)) {
+            return res.send({
+                code: 3000,
+                message: 'Bad input'
+            });
+        }
+        // fake captcha
+        if (captcha !== CAPTCHA) {
+            return res.send({
+                code: 3000,
+                message: 'captcha outdated'
+            });
+        }
+        User.find({
+            name: name
+        }).then(users => {
+            if (users.length > 0) {
+                return res.send({
+                    code: 3000,
+                    message: 'Account already exist'
+                })
+            }
+            User.find({
+                mobile: mobile
+            }).then(users => {
+                if (users.length > 0) {
+                    return res.send({
+                        code: 3000,
+                        message: 'Account already exist'
+                    })
+                }
+                User.create({
+                    name: name,
+                    mobile: mobile,
+                    password: utils.generateHash(password),
+                }).then(user => {
+                    const token = jwt.sign({userId: user._id, username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
+                    return res.send({
+                        code: 1000,
+                        message: 'Signed up',
+                        data:{token}
+                    })
+                }).catch(err => {
+                    return res.send({
+                        code: 3000,
+                        message: 'Server error'
+                    })
+                });
+            }).catch(err => {
+                return res.send({
+                    code: 3000,
+                    message: 'Server error'
+                })
+            });
+        })
     },
     userSignin: (req, res, next) => {
         const {mobile, password} = req.body;
