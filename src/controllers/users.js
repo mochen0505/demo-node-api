@@ -66,7 +66,7 @@ module.exports = {
         if (captcha !== CAPTCHA) {
             return res.send({
                 code: 3000,
-                message: 'captcha outdated'
+                message: 'Bad captcha'
             });
         }
         User.find({
