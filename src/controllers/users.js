@@ -56,7 +56,7 @@ module.exports = {
                 message: 'Required input cannot be blank'
             });
         }
-        if (!utils.nameValidator(name) || !utils.mobileValidator(mobile) || !utils.passValidator(password) || !utils.passValidator(confirmPassword) || !utils.confirmPassword(password, confirmPassword)) {
+        if (!utils.nameValidator(name) || !utils.mobileValidator(mobile) || !utils.passValidator(password) || !utils.confirmPassword(password, confirmPassword)) {
             return res.send({
                 code: 3000,
                 message: 'Bad input'
