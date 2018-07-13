@@ -12,6 +12,9 @@ router.post('/signup', UsersController.userSignup);
 // user sign in
 router.post('/signin', UsersController.userSignin);
 
+// user sign out
+router.post('/signout', checkAuth, UsersController.userSignout);
+
 // user profile
 router.get('/profile', checkAuth, UsersController.getUserProfile);
 

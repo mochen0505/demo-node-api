@@ -156,10 +156,18 @@ module.exports = {
             })
         });
     },
+    userSignout: (req, res, next) => {
+        return res.send({
+            code: 1000,
+            message: 'Logged out',
+            token: null
+        })
+    },
     getUserProfile: (req, res, next) => {
         //TODO
         return res.send({
-            code: 1000
+            code: 1000,
+            message: 'Success'
         });
     }
 };

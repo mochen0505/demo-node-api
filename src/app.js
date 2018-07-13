@@ -23,9 +23,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'build')));
 
 // always return the main index.html
-app.get('/*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
-});
+// app.get('/*', (req, res) => {
+//     res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+// });
 
 // CORS
 app.use((req, res, next) => {

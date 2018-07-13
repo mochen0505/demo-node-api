@@ -22,6 +22,10 @@ demo-node-api
     
 * The App will be running on localhost:3001
 
+### Deployment ###
+
+* For deployment, denote line 26 to 28 in _app.js_, and copy the _build_ file to the _src_ folder
+
 ### TODO ###
 
 * Coming soon...
