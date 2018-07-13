@@ -160,7 +160,7 @@ module.exports = {
         return res.send({
             code: 1000,
             message: 'Logged out',
-            token: null
+            data: {token: null}
         })
     },
     getUserProfile: (req, res, next) => {
