@@ -175,7 +175,9 @@ module.exports = {
         const {username} = req.decoded;
         UserProfile.findOne({
             name: username,
-        }).then(userProfile => {
+        }).select(
+            "name mobile avatar gender country city"
+        ).then(userProfile => {
             return res.send({
                 code: 1000,
                 message: 'Success',
