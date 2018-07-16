@@ -15,7 +15,10 @@ router.post('/signin', UsersController.userSignin);
 // user sign out
 router.post('/signout', checkAuth, UsersController.userSignout);
 
-// user profile
+// get user profile
 router.get('/profile', checkAuth, UsersController.getUserProfile);
+
+// edit user profile
+router.post('/profileEdit', checkAuth, UsersController.editUserProfile);
 
 module.exports = router;

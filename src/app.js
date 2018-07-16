@@ -3,14 +3,19 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const global = require('./utils/global');
 
 // .env config
 require('dotenv').config();
 
+// routers
 const usersRouter = require('./routes/users');
 
 // set up express app
 const app = express();
+
+// set global variables
+app.set('loggedOut', global.loggedOut);
 
 // set up mongodb
 const mongoose = require('./config/mongoose');

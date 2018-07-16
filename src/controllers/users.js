@@ -10,6 +10,7 @@ const jwt = require('jsonwebtoken');
 
 // import models
 const User = require('../models/User');
+const UserProfile = require('../models/UserProfile');
 const CAPTCHA = '123456';
 
 module.exports = {
@@ -92,7 +93,12 @@ module.exports = {
                     mobile: mobile,
                     password: utils.generateHash(password),
                 }).then(user => {
-                    const token = jwt.sign({userId: user._id, username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
+                    const token = jwt.sign({username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
+                    req.app.set('loggedOut', false);
+                    UserProfile.create({
+                        name: user.name,
+                        mobile: user.mobile,
+                    });
                     return res.send({
                         code: 1000,
                         message: 'Signed up',
@@ -142,7 +148,8 @@ module.exports = {
                     message: 'Auth failed'
                 })
             } else {
-                const token = jwt.sign({userId: user._id, username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
+                const token = jwt.sign({username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
+                req.app.set('loggedOut', false);
                 return res.send({
                     code: 1000,
                     message: 'Success',
@@ -157,6 +164,7 @@ module.exports = {
         });
     },
     userSignout: (req, res, next) => {
+        req.app.set('loggedOut', true);
         return res.send({
             code: 1000,
             message: 'Logged out',
@@ -164,10 +172,43 @@ module.exports = {
         })
     },
     getUserProfile: (req, res, next) => {
-        //TODO
-        return res.send({
-            code: 1000,
-            message: 'Success'
+        const {username} = req.decoded;
+        UserProfile.findOne({
+            name: username,
+        }).then(userProfile => {
+            return res.send({
+                code: 1000,
+                message: 'Success',
+                data: userProfile,
+            })
+        }).catch(err => {
+            console.log(err);
+            return res.send({
+                code: 3000,
+                message: 'Server error'
+            })
         });
-    }
+    },
+    editUserProfile: (req, res, next) => {
+        const {username} = req.decoded;
+        const {avatar, gender, country, city} = req.body;
+        UserProfile.findOneAndUpdate({
+            name: username,
+        }, {
+            avatar: avatar,
+            gender: gender,
+            country: country,
+            city: city,
+        }).then(userProfile => {
+            return res.send({
+                code: 1000,
+                message: 'Success'
+            })
+        }).catch(err => {
+            return res.send({
+                code: 3000,
+                message: 'Server error'
+            })
+        })
+    },
 };

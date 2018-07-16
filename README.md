@@ -28,4 +28,6 @@ demo-node-api
 
 ### TODO ###
 
-* Coming soon...
+* More APIs
+* Optimization
+* Unit test
