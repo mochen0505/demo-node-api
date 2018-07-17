@@ -93,9 +93,10 @@ module.exports = {
                     mobile: mobile,
                     password: utils.generateHash(password),
                 }).then(user => {
-                    const token = jwt.sign({username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
+                    const token = jwt.sign({userId: user._id}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
                     req.app.set('loggedOut', false);
                     UserProfile.create({
+                        _id: user._id,
                         name: user.name,
                         mobile: user.mobile,
                     });
@@ -148,7 +149,7 @@ module.exports = {
                     message: 'Auth failed'
                 })
             } else {
-                const token = jwt.sign({username: user.name}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
+                const token = jwt.sign({userId: user._id}, process.env.JWT_SECRET, {expiresIn: 60*60*24});
                 req.app.set('loggedOut', false);
                 return res.send({
                     code: 1000,
@@ -172,9 +173,9 @@ module.exports = {
         })
     },
     getUserProfile: (req, res, next) => {
-        const {username} = req.decoded;
+        const {userId} = req.decoded;
         UserProfile.findOne({
-            name: username,
+            _id: userId,
         }).select(
             "name mobile avatar gender country city"
         ).then(userProfile => {
@@ -192,15 +193,32 @@ module.exports = {
         });
     },
     editUserProfile: (req, res, next) => {
-        const {username} = req.decoded;
-        const {avatar, gender, country, city} = req.body;
+        const {userId} = req.decoded;
+        const {gender, country, city} = req.body;
         UserProfile.findOneAndUpdate({
-            name: username,
+            _id: userId,
         }, {
-            avatar: avatar,
             gender: gender,
             country: country,
             city: city,
+        }).then(userProfile => {
+            return res.send({
+                code: 1000,
+                message: 'Success'
+            })
+        }).catch(err => {
+            return res.send({
+                code: 3000,
+                message: 'Server error'
+            })
+        })
+    },
+    editUserAvatar: (req, res, next) => {
+        const {userId} = req.decoded;
+        UserProfile.findOneAndUpdate({
+            _id: userId,
+        }, {
+            avatar: req.file.path,
         }).then(userProfile => {
             return res.send({
                 code: 1000,

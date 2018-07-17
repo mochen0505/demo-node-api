@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const checkAuth = require('../middleware/checkAuth');
+const uploadFile = require('../middleware/uploadFile');
 const UsersController = require('../controllers/users');
 
 // user sign up captcha
@@ -20,5 +21,8 @@ router.get('/profile', checkAuth, UsersController.getUserProfile);
 
 // edit user profile
 router.post('/profileEdit', checkAuth, UsersController.editUserProfile);
+
+// edit user avatar
+router.post('/avatarEdit', checkAuth, uploadFile(), UsersController.editUserAvatar);
 
 module.exports = router;

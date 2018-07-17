@@ -21,6 +21,9 @@ app.set('loggedOut', global.loggedOut);
 const mongoose = require('./config/mongoose');
 const db = mongoose();
 
+// make folder publicly available
+app.use('/uploads', express.static('uploads'));
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
