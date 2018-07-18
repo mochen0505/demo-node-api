@@ -32,5 +32,7 @@ const UserProfileSchema = new Schema({
         enum: ['client', 'admin'],
         default: 'client'
     }
+}, {
+    timestamps: {createdAt: 'created_at', updatedAt: 'updated_at'}
 });
 module.exports = UserProfileSchema;
