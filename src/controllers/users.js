@@ -177,7 +177,7 @@ module.exports = {
         UserProfile.findOne({
             _id: userId,
         }).select(
-            "name mobile avatar gender country city"
+            "name mobile balance avatar gender country city role"
         ).then(userProfile => {
             return res.send({
                 code: 1000,

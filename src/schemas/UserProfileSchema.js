@@ -11,6 +11,10 @@ const UserProfileSchema = new Schema({
         type: String,
         required: true
     },
+    balance: {
+        type: Number,
+        default: 0
+    },
     avatar: {
         type: String,
     },
