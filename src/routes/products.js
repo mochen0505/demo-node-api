@@ -7,11 +7,12 @@ const ProductsController = require('../controllers/products');
 // new product
 router.post('/newProduct', checkAuth, uploadFile(), ProductsController.newProduct);
 
-// edit product
+// update product
+router.post('/updateProduct', checkAuth, uploadFile(), ProductsController.updateProduct);
 
 // delete product
 
-// get product
+// get product list
 
 // get all product
 

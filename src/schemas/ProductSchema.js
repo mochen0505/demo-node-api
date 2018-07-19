@@ -38,4 +38,9 @@ ProductSchema.pre('save', function(next) {
     next();
 });
 
+ProductSchema.pre('update', function(next) {
+    this.update({}, { $set: {updated_at: Date.now()}});
+    next();
+});
+
 module.exports = ProductSchema;
