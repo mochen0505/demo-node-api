@@ -13,9 +13,9 @@ router.post('/updateProduct', checkAuth, uploadFile(), ProductsController.update
 // get product
 router.get('/:productId', checkAuth, ProductsController.getProduct);
 
-// get product list
-
 // delete product
+
+// get product list
 
 // get all product
 
