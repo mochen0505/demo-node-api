@@ -10,9 +10,12 @@ router.post('/newProduct', checkAuth, uploadFile(), ProductsController.newProduc
 // update product
 router.post('/updateProduct', checkAuth, uploadFile(), ProductsController.updateProduct);
 
-// delete product
+// get product
+router.get('/:productId', checkAuth, ProductsController.getProduct);
 
 // get product list
+
+// delete product
 
 // get all product
 

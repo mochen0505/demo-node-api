@@ -47,7 +47,7 @@ module.exports = {
         Product.findOne({
             _id: productId,
         }).then(product => {
-            if (!product || product.uid !== userId) {
+            if (product.uid !== userId) {
                 return res.send({
                     code: 3000,
                     message: 'Product not found'
@@ -72,6 +72,32 @@ module.exports = {
             return res.send({
                 code: 3000,
                 message: 'Server error'
+            })
+        });
+    },
+    getProduct: (req, res, next) => {
+        const {userId} = req.decoded;
+        const {productId} = req.params;
+        Product.findOne({
+            _id: productId
+        }).select(
+            "uid name price picture brief created_at updated_at"
+        ).then(product => {
+            if (product.uid !== userId) {
+                return res.send({
+                    code: 3000,
+                    message: 'Product not found'
+                });
+            }
+            return res.send({
+                code: 1000,
+                message: 'Success',
+                data: product,
+            })
+        }).catch(err => {
+            return res.send({
+                code: 3000,
+                message: 'Product not found'
             })
         });
     },

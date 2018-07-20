@@ -188,7 +188,7 @@ module.exports = {
             console.log(err);
             return res.send({
                 code: 3000,
-                message: 'Server error'
+                message: 'User not found'
             })
         });
     },
