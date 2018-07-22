@@ -46,12 +46,13 @@ module.exports = {
         }
         Product.findOne({
             _id: productId,
+            uid: userId
         }).then(product => {
-            if (product.uid !== userId) {
+            if(!product) {
                 return res.send({
                     code: 3000,
                     message: 'Product not found'
-                });
+                })
             }
             Product.update({
                 _id: productId,
@@ -79,20 +80,55 @@ module.exports = {
         const {userId} = req.decoded;
         const {productId} = req.params;
         Product.findOne({
-            _id: productId
+            _id: productId,
+            uid: userId
         }).select(
-            "uid name price picture brief created_at updated_at"
+            "name price picture brief created_at updated_at"
         ).then(product => {
-            if (product.uid !== userId) {
+            if (!product) {
                 return res.send({
                     code: 3000,
                     message: 'Product not found'
-                });
+                })
             }
             return res.send({
                 code: 1000,
                 message: 'Success',
                 data: product,
+            })
+        }).catch(err => {
+            return res.send({
+                code: 3000,
+                message: 'Product not found'
+            })
+        });
+    },
+    deleteProduct: (req, res, next) => {
+        const {userId} = req.decoded;
+        const {productIds} = req.body;
+        Product.find({
+            _id: { $in: productIds},
+            uid: userId
+        }).then(products => {
+            if (products.length !== productIds.length) {
+                return res.send({
+                    code: 3000,
+                    message: 'Product not found'
+                })
+            }
+            Product.deleteMany({
+                _id: { $in: productIds},
+                uid: userId
+            }).then(response => {
+                return res.send({
+                    code: 1000,
+                    message: 'Success'
+                })
+            }).catch(err => {
+                return res.send({
+                    code: 3000,
+                    message: 'Delete failed'
+                })
             })
         }).catch(err => {
             return res.send({
