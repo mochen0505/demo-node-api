@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const mongoosePaginate = require('mongoose-paginate');
 const Schema = mongoose.Schema;
 
 // new ProductSchema
@@ -28,6 +29,8 @@ const ProductSchema = new Schema({
         type: Date,
     }
 });
+
+ProductSchema.plugin(mongoosePaginate);
 
 ProductSchema.pre('save', function(next) {
     const now = Date.now();

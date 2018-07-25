@@ -137,4 +137,35 @@ module.exports = {
             })
         });
     },
+    // TODO: search, filter, sort
+    getProductList: (req, res, next) => {
+        const {userId} = req.decoded;
+        const {page, pageSize} = req.query;
+        Product.paginate({
+            uid: userId
+        }, {
+            select: 'name price picture brief created_at updated_at',
+            sort: {updated_at: -1},
+            page: parseInt(page),
+            limit: parseInt(pageSize)
+        }).then(result => {
+            return res.send({
+                code: 1000,
+                message: 'Success',
+                data: {
+                    list: result.docs,
+                    pagination: {
+                        currentPage: result.page,
+                        pageSize: result.limit,
+                        total: result.total
+                    }
+                },
+            })
+        }).catch(err => {
+            return res.send({
+                code: 3000,
+                message: 'Server error'
+            })
+        });
+    },
 };

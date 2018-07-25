@@ -11,14 +11,13 @@ router.post('/newProduct', checkAuth, uploadFile(), ProductsController.newProduc
 router.post('/updateProduct', checkAuth, uploadFile(), ProductsController.updateProduct);
 
 // get product
-router.get('/:productId', checkAuth, ProductsController.getProduct);
+router.get('/product/:productId', checkAuth, ProductsController.getProduct);
 
 // delete product
 router.post('/deleteProducts', checkAuth, ProductsController.deleteProduct);
 
 // get product list
-
-// get all product
+router.get('/productList', checkAuth, ProductsController.getProductList);
 
 module.exports = router;
 
