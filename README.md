@@ -24,7 +24,7 @@ demo-node-api
 
 ### Deployment ###
 
-* For deployment, denote line 26 to 28 in _app.js_, and copy the _build_ file to the _src_ folder
+* For deployment, uncomment line 35 to 37, comment line 40 to 48 in _app.js_, and copy the _build_ file to the _src_ folder
 
 ### TODO ###
 
