@@ -137,7 +137,7 @@ module.exports = {
             })
         });
     },
-    // TODO: search, filter, sort
+    // TODO: search, sort
     getProductList: (req, res, next) => {
         const {userId} = req.decoded;
         const {page, pageSize} = req.query;
