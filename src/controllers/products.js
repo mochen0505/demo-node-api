@@ -137,17 +137,17 @@ module.exports = {
             })
         });
     },
-    // TODO: search, sort
+    // TODO: fuzzy search, filter, sort
     getProductList: (req, res, next) => {
         const {userId} = req.decoded;
         const {page, pageSize} = req.query;
         Product.paginate({
-            uid: userId
+            uid: userId,
         }, {
             select: 'name price picture brief created_at updated_at',
             sort: {updated_at: -1},
-            page: parseInt(page),
-            limit: parseInt(pageSize)
+            page: parseInt(page) || 1,
+            limit: parseInt(pageSize) || 10
         }).then(result => {
             return res.send({
                 code: 1000,
