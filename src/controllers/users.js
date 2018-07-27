@@ -193,6 +193,7 @@ module.exports = {
         });
     },
     editUserProfile: (req, res, next) => {
+        // TODO: edit user name
         const {userId} = req.decoded;
         const {gender, country, city} = req.body;
         UserProfile.findOneAndUpdate({
@@ -231,4 +232,5 @@ module.exports = {
             })
         })
     },
+    // TODO: change password
 };
