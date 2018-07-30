@@ -21,7 +21,7 @@ const UserProfileSchema = new Schema({
     gender: {
         type: String,
     },
-    country: {
+    province: {
         type: String,
     },
     city: {
