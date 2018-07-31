@@ -9,8 +9,8 @@ const jwt = require('jsonwebtoken');
  */
 
 // import models
-const User = require('../models/User');
-const UserProfile = require('../models/UserProfile');
+const User = require('../models/user');
+const UserProfile = require('../models/userProfile');
 const CAPTCHA = '123456';
 
 module.exports = {

@@ -6,7 +6,7 @@
  */
 
 // import models
-const Product = require('../models/Product');
+const Product = require('../models/product');
 
 module.exports = {
     newProduct: (req, res, next) => {
