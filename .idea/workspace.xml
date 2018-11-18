@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="user profile birthday">
-      <change afterPath="$PROJECT_DIR$/src/models/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/userProfile.js" afterDir="false" />
+    <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="minor change">
+      <change afterPath="$PROJECT_DIR$/models/face_detection_model-shard1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_detection_model-shard2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_detection_model-weights_manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_landmark_68_model-shard1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_landmark_68_model-shard2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_landmark_68_model-weights_manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_recognition_model-shard1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_recognition_model-shard2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_recognition_model-weights_manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/mtcnn_model-shard1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/mtcnn_model-weights_manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ssd_mobilenetv1_model-shard1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ssd_mobilenetv1_model-shard2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ssd_mobilenetv1_model-weights_manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/uncompressed/face_detection_model.weights" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/uncompressed/face_landmark_68_model.weights" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/uncompressed/face_recognition_model.weights" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/uncompressed/mtcnn_model.weights" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/User.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/UserProfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/ProductSchema.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/UserProfileSchema.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/UserSchema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,89 +36,72 @@
     <session id="-2118119159">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="50" />
+          <entry key="project.open.time.0" value="16" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.5" value="11" />
+          <entry key="project.open.time.6" value="8" />
+          <entry key="project.open.time.7" value="7" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="34" />
-          <entry key="json" value="1" />
-          <entry key="md" value="2" />
+          <entry key="env" value="10" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="62" />
+          <entry key="json" value="9" />
+          <entry key="md" value="4" />
+          <entry key="www" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="34" />
-          <entry key="Markdown" value="2" />
+          <entry key="Image" value="5" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="69" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1052" />
+          <entry key="js" value="1227" />
+          <entry key="json" value="1" />
           <entry key="md" value="38" />
-          <entry key="txt" value="52" />
+          <entry key="txt" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1052" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="1227" />
           <entry key="Markdown" value="38" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="PLAIN_TEXT" value="86" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+            <state relative-caret-position="489">
+              <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/products.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/products.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/product.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/models/userProfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -118,17 +109,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="3654">
+              <caret line="174" column="41" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/user.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+            <state relative-caret-position="252">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -145,6 +136,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>products</find>
+      <find>server</find>
+      <find>loggedOut</find>
+      <find>multer</find>
+      <find>nodemon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,7 +165,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/src/utils/utils.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/middleware/checkAuth.js" />
         <option value="$PROJECT_DIR$/src/utils/global.js" />
         <option value="$PROJECT_DIR$/src/bin/www" />
@@ -179,19 +173,20 @@
         <option value="$PROJECT_DIR$/src/config/mongoose.js" />
         <option value="$PROJECT_DIR$/src/middleware/uploadFile.js" />
         <option value="$PROJECT_DIR$/src/routes/users.js" />
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/routes/products.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/schemas/ProductSchema.js" />
         <option value="$PROJECT_DIR$/src/schemas/UserSchema.js" />
         <option value="$PROJECT_DIR$/src/schemas/UserProfileSchema.js" />
         <option value="$PROJECT_DIR$/src/models/Product.js" />
         <option value="$PROJECT_DIR$/src/models/ProductSchema.js" />
         <option value="$PROJECT_DIR$/src/models/product.js" />
-        <option value="$PROJECT_DIR$/src/models/user.js" />
-        <option value="$PROJECT_DIR$/src/models/userProfile.js" />
         <option value="$PROJECT_DIR$/src/controllers/products.js" />
+        <option value="$PROJECT_DIR$/src/models/userProfile.js" />
+        <option value="$PROJECT_DIR$/src/models/user.js" />
         <option value="$PROJECT_DIR$/src/controllers/users.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app.js" />
       </list>
     </option>
   </component>
@@ -218,8 +213,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-105" />
-    <option name="y" value="80" />
+    <option name="x" value="85" />
+    <option name="y" value="-30" />
     <option name="width" value="1945" />
     <option name="height" value="1105" />
   </component>
@@ -240,6 +235,11 @@
             <path>
               <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,6 +247,12 @@
               <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +291,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="loggedOut&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -292,16 +299,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\src" />
+      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\models" />
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api" />
+      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\src" />
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\public" />
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\public\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\uploads" />
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api" />
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\src" />
     </key>
@@ -401,7 +410,49 @@
       <workItem from="1532663714149" duration="3025000" />
       <workItem from="1532806219175" duration="1203000" />
       <workItem from="1532915703248" duration="8308000" />
-      <workItem from="1533000911988" duration="2608000" />
+      <workItem from="1533000911988" duration="9057000" />
+      <workItem from="1533083687299" duration="7027000" />
+      <workItem from="1533169999085" duration="7030000" />
+      <workItem from="1533260848296" duration="1210000" />
+      <workItem from="1533270672481" duration="1200000" />
+      <workItem from="1533359108216" duration="612000" />
+      <workItem from="1533520600894" duration="1222000" />
+      <workItem from="1533779864874" duration="705000" />
+      <workItem from="1533880462290" duration="1627000" />
+      <workItem from="1534148753062" duration="1198000" />
+      <workItem from="1534217851561" duration="633000" />
+      <workItem from="1534296456943" duration="617000" />
+      <workItem from="1534470993140" duration="1480000" />
+      <workItem from="1534988470413" duration="833000" />
+      <workItem from="1535123234323" duration="186000" />
+      <workItem from="1535123699234" duration="1235000" />
+      <workItem from="1535214831292" duration="606000" />
+      <workItem from="1535595106582" duration="136000" />
+      <workItem from="1536197986818" duration="649000" />
+      <workItem from="1537235881688" duration="1211000" />
+      <workItem from="1538477838242" duration="952000" />
+      <workItem from="1538536272975" duration="599000" />
+      <workItem from="1539342977017" duration="622000" />
+      <workItem from="1540302664286" duration="2370000" />
+      <workItem from="1540311701157" duration="139000" />
+      <workItem from="1540562784483" duration="16000" />
+      <workItem from="1540611585803" duration="645000" />
+      <workItem from="1541607312388" duration="456000" />
+      <workItem from="1541607779876" duration="599000" />
+      <workItem from="1541837037354" duration="178000" />
+      <workItem from="1541837263229" duration="559000" />
+      <workItem from="1541947104748" duration="28000" />
+      <workItem from="1541947145254" duration="2716000" />
+      <workItem from="1542201026516" duration="3196000" />
+      <workItem from="1542211024194" duration="2579000" />
+      <workItem from="1542246588756" duration="1700000" />
+      <workItem from="1542294495649" duration="329000" />
+      <workItem from="1542294972345" duration="52000" />
+      <workItem from="1542295398093" duration="43000" />
+      <workItem from="1542295907725" duration="171000" />
+      <workItem from="1542297654569" duration="35000" />
+      <workItem from="1542544541193" duration="79000" />
+      <workItem from="1542554016063" duration="1800000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1528390662552</created>
@@ -676,11 +727,25 @@
       <option name="project" value="LOCAL" />
       <updated>1532946836359</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="file structure changed">
+      <created>1533004420625</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1533004420625</updated>
+    </task>
+    <task id="LOCAL-00041" summary="minor change">
+      <created>1533004561116</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1533004561116</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271312000" />
+    <option name="totallyTimeSpent" value="327041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,10 +757,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19932885" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20738254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -709,7 +774,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32765958" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.34042552" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -768,9 +833,10 @@
     <MESSAGE value="product detail api added" />
     <MESSAGE value="delete products api" />
     <MESSAGE value="get product list api" />
-    <MESSAGE value="minor change" />
     <MESSAGE value="user profile birthday" />
-    <option name="LAST_COMMIT_MESSAGE" value="user profile birthday" />
+    <MESSAGE value="file structure changed" />
+    <MESSAGE value="minor change" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor change" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/index.js" />
@@ -793,17 +859,24 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/utils.js">
+    <entry file="file://$PROJECT_DIR$/uploads/2018-07-17T07-46-03.441Zcm.jpg" />
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="148">
+          <caret line="457" selection-start-line="457" selection-end-line="457" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/global.js">
+    <entry file="file://$PROJECT_DIR$/src/models/ProductSchema.js" />
+    <entry file="file://$PROJECT_DIR$/src/models/UserSchema.js" />
+    <entry file="file://$PROJECT_DIR$/src/models/UserProfileSchema.js" />
+    <entry file="file://$PROJECT_DIR$/uploads/2018-07-17T11-16-05.371Zvk.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/2018-07-17T11-17-06.993Zcm.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/2018-07-23T16-32-12.010Zcm.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/models/userProfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="378">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -821,39 +894,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/2018-07-17T07-46-03.441Zcm.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="457" selection-start-line="457" selection-end-line="457" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middleware/checkAuth.js">
+    <entry file="file://$PROJECT_DIR$/src/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/src/controllers/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="69">
+          <caret line="139" column="7" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -864,113 +915,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/utils/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="21">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="368">
-            <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/ProductSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/UserSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/UserProfileSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="567">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/ProductSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/UserSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="22" lean-forward="true" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/UserProfileSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="29" column="11" lean-forward="true" selection-end-line="42" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="483">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/product.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        <state relative-caret-position="630">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/userProfile.js">
+    <entry file="file://$PROJECT_DIR$/src/middleware/checkAuth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="452">
+            <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="174" column="41" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/mtcnn_model-weights_manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/ssd_mobilenetv1_model-weights_manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/2018-08-02T03-17-09.727Zvk.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
