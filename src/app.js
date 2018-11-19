@@ -46,7 +46,7 @@ app.use((req, res, next) => {
 
 // make folder publicly available
 app.use('/uploads', express.static('uploads'));
-// app.use('/models', express.static('models'));
+app.use('/models', express.static('models'));
 
 // initialize routes
 app.use('/users', usersRouter);

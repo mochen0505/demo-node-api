@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="minor change">
-      <change afterPath="$PROJECT_DIR$/models/face_detection_model-shard1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/face_detection_model-shard2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/face_detection_model-weights_manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/face_landmark_68_model-shard1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/face_landmark_68_model-shard2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/face_landmark_68_model-weights_manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_landmark_68_tiny_model-shard1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/face_landmark_68_tiny_model-weights_manifest.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/face_recognition_model-shard1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/face_recognition_model-shard2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/face_recognition_model-weights_manifest.json" afterDir="false" />
@@ -16,10 +14,8 @@
       <change afterPath="$PROJECT_DIR$/models/ssd_mobilenetv1_model-shard1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/ssd_mobilenetv1_model-shard2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/ssd_mobilenetv1_model-weights_manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/uncompressed/face_detection_model.weights" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/uncompressed/face_landmark_68_model.weights" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/uncompressed/face_recognition_model.weights" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/uncompressed/mtcnn_model.weights" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/tiny_face_detector_model-shard1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/tiny_face_detector_model-weights_manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
@@ -70,7 +66,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1227" />
+          <entry key="js" value="1230" />
           <entry key="json" value="1" />
           <entry key="md" value="38" />
           <entry key="txt" value="86" />
@@ -79,7 +75,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1227" />
+          <entry key="JavaScript" value="1230" />
           <entry key="Markdown" value="38" />
           <entry key="PLAIN_TEXT" value="86" />
         </counts>
@@ -91,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+            <state relative-caret-position="496">
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -235,11 +231,6 @@
             <path>
               <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -294,7 +285,7 @@
     <property name="SearchEverywhereHistoryKey" value="loggedOut&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/face-api.js-master/face-api.js-master/examples/examples-browser" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -452,7 +443,7 @@
       <workItem from="1542295907725" duration="171000" />
       <workItem from="1542297654569" duration="35000" />
       <workItem from="1542544541193" duration="79000" />
-      <workItem from="1542554016063" duration="1800000" />
+      <workItem from="1542554016063" duration="5975000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1528390662552</created>
@@ -741,11 +732,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533004561116</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="minor change">
+      <created>1542563107297</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1542563107297</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327041000" />
+    <option name="totallyTimeSpent" value="331216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1006,8 +1004,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+        <state relative-caret-position="496">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
         </state>
       </provider>
     </entry>
