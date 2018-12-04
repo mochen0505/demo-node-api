@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="labeled images added">
-      <change afterPath="$PROJECT_DIR$/labeledImg/guolong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labeledImg/wangmeng.jpg" afterDir="false" />
+    <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="minor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labeledImg/mochen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/labeledImg/mochen.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,68 +14,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2118119159">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="57" />
-          <entry key="project.open.time.0" value="19" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="11" />
-          <entry key="project.open.time.6" value="11" />
-          <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="61" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="env" value="10" />
-          <entry key="jpg" value="10" />
-          <entry key="js" value="63" />
-          <entry key="json" value="9" />
-          <entry key="md" value="4" />
-          <entry key="www" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="10" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="70" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="js" value="1277" />
-          <entry key="json" value="1" />
-          <entry key="md" value="38" />
-          <entry key="txt" value="139" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1277" />
-          <entry key="Markdown" value="38" />
-          <entry key="PLAIN_TEXT" value="139" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="336">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -103,12 +47,12 @@
         <entry file="file://$PROJECT_DIR$/src/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -183,27 +127,11 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
@@ -287,7 +215,7 @@
     <property name="SearchEverywhereHistoryKey" value="loggedOut&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.11.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-react-admin" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -295,18 +223,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\labeledImg" />
-      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\uploads" />
-      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api" />
-      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\labeledImg" />
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\models" />
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api" />
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\src" />
       <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\labeledImg" />
+      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\uploads" />
+      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api" />
+      <recent name="C:\Users\moche\OneDrive\Documents\GitHub\Playgrounds\Web\demo-node-api\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -454,6 +382,10 @@
       <workItem from="1542814271935" duration="3268000" />
       <workItem from="1542851980410" duration="5832000" />
       <workItem from="1542900072204" duration="2135000" />
+      <workItem from="1542992702613" duration="75000" />
+      <workItem from="1542992825527" duration="2389000" />
+      <workItem from="1543251031963" duration="1204000" />
+      <workItem from="1543915713818" duration="81000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1528390662552</created>
@@ -763,11 +695,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542819050815</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="minor">
+      <created>1542992765121</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1542992765121</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349379000" />
+    <option name="totallyTimeSpent" value="353128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,14 +719,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20939597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21006711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -835,9 +775,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -859,7 +810,8 @@
     <MESSAGE value="minor change" />
     <MESSAGE value="add face detection models" />
     <MESSAGE value="labeled images added" />
-    <option name="LAST_COMMIT_MESSAGE" value="labeled images added" />
+    <MESSAGE value="minor" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/index.js" />
@@ -999,6 +951,18 @@
     <entry file="file://$PROJECT_DIR$/uploads/2018-08-02T03-17-09.727Zvk.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/labeledImg/wangmeng.jpg" />
+    <entry file="file://$PROJECT_DIR$/labeledImg/guolong.jpg" />
+    <entry file="file://$PROJECT_DIR$/labeledImg/mochen.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1016,7 +980,7 @@
     <entry file="file://$PROJECT_DIR$/src/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1024,22 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labeledImg/wangmeng.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labeledImg/mochen.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labeledImg/guolong.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
