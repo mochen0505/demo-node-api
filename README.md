@@ -31,5 +31,6 @@ demo-node-api
 ### TODO ###
 
 * More APIs
+* Caching
 * Optimization
 * Unit test
