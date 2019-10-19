@@ -3,78 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="minor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/face_landmark_68_model-shard1" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/face_landmark_68_model-shard1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/face_landmark_68_model-weights_manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/face_landmark_68_model-weights_manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/face_landmark_68_tiny_model-shard1" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/face_landmark_68_tiny_model-shard1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/face_landmark_68_tiny_model-weights_manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/face_landmark_68_tiny_model-weights_manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/face_recognition_model-shard1" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/face_recognition_model-shard1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/face_recognition_model-shard2" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/face_recognition_model-shard2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/face_recognition_model-weights_manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/face_recognition_model-weights_manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mtcnn_model-shard1" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/mtcnn_model-shard1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mtcnn_model-weights_manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/mtcnn_model-weights_manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ssd_mobilenetv1_model-shard1" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/ssd_mobilenetv1_model-shard1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ssd_mobilenetv1_model-shard2" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/ssd_mobilenetv1_model-shard2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ssd_mobilenetv1_model-weights_manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/ssd_mobilenetv1_model-weights_manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/tiny_face_detector_model-shard1" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/tiny_face_detector_model-shard1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/tiny_face_detector_model-weights_manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/faceRecognition/tiny_face_detector_model-weights_manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4095">
-              <caret line="195" column="11" selection-start-line="195" selection-start-column="11" selection-end-line="195" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/products.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2919">
-              <caret line="139" column="7" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,62 +19,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>products</find>
-      <find>server</find>
-      <find>loggedOut</find>
-      <find>multer</find>
-      <find>nodemon</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/schemas/userSchema.js" />
-        <option value="$PROJECT_DIR$/models/user.js" />
-        <option value="$PROJECT_DIR$/models/User.js" />
-        <option value="$PROJECT_DIR$/config/mongoose.js" />
-        <option value="$PROJECT_DIR$/utils/reg.js" />
-        <option value="$PROJECT_DIR$/utils/regs.js" />
-        <option value="$PROJECT_DIR$/schemas/UserSchema.js" />
-        <option value="$PROJECT_DIR$/nodemon.json" />
-        <option value="$PROJECT_DIR$/config/config.js" />
-        <option value="$PROJECT_DIR$/routes/users.js" />
-        <option value="$PROJECT_DIR$/middleware/checkAuth.js" />
-        <option value="$PROJECT_DIR$/controllers/users.js" />
-        <option value="$PROJECT_DIR$/utils/validators.js" />
-        <option value="$PROJECT_DIR$/utils/utils.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/src/utils/utils.js" />
-        <option value="$PROJECT_DIR$/src/middleware/checkAuth.js" />
-        <option value="$PROJECT_DIR$/src/utils/global.js" />
-        <option value="$PROJECT_DIR$/src/bin/www" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/src/models/UserProfile.js" />
-        <option value="$PROJECT_DIR$/src/config/mongoose.js" />
-        <option value="$PROJECT_DIR$/src/middleware/uploadFile.js" />
-        <option value="$PROJECT_DIR$/src/routes/users.js" />
-        <option value="$PROJECT_DIR$/src/routes/products.js" />
-        <option value="$PROJECT_DIR$/src/schemas/ProductSchema.js" />
-        <option value="$PROJECT_DIR$/src/schemas/UserSchema.js" />
-        <option value="$PROJECT_DIR$/src/schemas/UserProfileSchema.js" />
-        <option value="$PROJECT_DIR$/src/models/Product.js" />
-        <option value="$PROJECT_DIR$/src/models/ProductSchema.js" />
-        <option value="$PROJECT_DIR$/src/models/product.js" />
-        <option value="$PROJECT_DIR$/src/controllers/products.js" />
-        <option value="$PROJECT_DIR$/src/models/userProfile.js" />
-        <option value="$PROJECT_DIR$/src/models/user.js" />
-        <option value="$PROJECT_DIR$/src/controllers/users.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -146,95 +28,13 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="166" />
-    <option name="y" value="12" />
-    <option name="width" value="1120" />
-    <option name="height" value="800" />
-  </component>
+  <component name="ProjectId" id="1SPVvZuBq7h37aM2L9tR962FRyg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="faceRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-node-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-node-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="loggedOut&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="8.11.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-react-admin" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.9.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -424,6 +224,7 @@
       <workItem from="1546078670722" duration="175000" />
       <workItem from="1546078863714" duration="835000" />
       <workItem from="1546483239432" duration="2294000" />
+      <workItem from="1571465449788" duration="1755000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1528390662552</created>
@@ -757,9 +558,6 @@
     <option name="localTasksCounter" value="48" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376667000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -768,32 +566,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19932885" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32719547" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32765958" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32765958" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33994335" />
-      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32905984" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" weight="0.29060403" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -807,20 +579,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -863,186 +622,6 @@
     <MESSAGE value="labeled images added" />
     <MESSAGE value="minor" />
     <option name="LAST_COMMIT_MESSAGE" value="minor" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/index.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/utils.js" />
-    <entry file="file://$PROJECT_DIR$/nodemon.json" />
-    <entry file="file://$PROJECT_DIR$/utils/validators.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO" />
-    <entry file="file://$PROJECT_DIR$/public/web/build/static/js/main.21635237.js" />
-    <entry file="file://$PROJECT_DIR$/public/build/static/js/main.21635237.js" />
-    <entry file="file://$PROJECT_DIR$/src/build/static/js/main.21635237.js" />
-    <entry file="file://$PROJECT_DIR$/src/build/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/build/static/js/main.e70bc9fa.js" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/2018-07-17T07-46-03.441Zcm.jpg" />
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="457" selection-start-line="457" selection-end-line="457" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/ProductSchema.js" />
-    <entry file="file://$PROJECT_DIR$/src/models/UserSchema.js" />
-    <entry file="file://$PROJECT_DIR$/src/models/UserProfileSchema.js" />
-    <entry file="file://$PROJECT_DIR$/uploads/2018-07-17T11-16-05.371Zvk.jpg" />
-    <entry file="file://$PROJECT_DIR$/uploads/2018-07-17T11-17-06.993Zcm.jpg" />
-    <entry file="file://$PROJECT_DIR$/uploads/2018-07-23T16-32-12.010Zcm.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/models/userProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/faceRecognition/mtcnn_model-weights_manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/faceRecognition/ssd_mobilenetv1_model-weights_manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/2018-08-02T03-17-09.727Zvk.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labeledImg/wangmeng.jpg" />
-    <entry file="file://$PROJECT_DIR$/labeledImg/guolong.jpg" />
-    <entry file="file://$PROJECT_DIR$/labeledImg/mochen.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/2018-11-18T17-42-22.257Zcm.jpg" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="453">
-            <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middleware/uploadFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middleware/checkAuth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4095">
-          <caret line="195" column="11" selection-start-line="195" selection-start-column="11" selection-end-line="195" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/products.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2919">
-          <caret line="139" column="7" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
