@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="minor">
+    <list default="true" id="f00cc222-ed06-411f-870a-ee3fd60f053e" name="Default" comment="bcrypt upgrade to 3.0.4">
+      <change afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labeledImg/mochen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/face_landmark_68_model-shard1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/face_landmark_68_model-weights_manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/face_landmark_68_tiny_model-shard1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/face_landmark_68_tiny_model-weights_manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/face_recognition_model-shard1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/face_recognition_model-shard2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/face_recognition_model-weights_manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/mtcnn_model-shard1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/mtcnn_model-weights_manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/ssd_mobilenetv1_model-shard1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/ssd_mobilenetv1_model-shard2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/ssd_mobilenetv1_model-weights_manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/tiny_face_detector_model-shard1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faceRecognition/tiny_face_detector_model-weights_manifest.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +45,7 @@
   <component name="ProjectId" id="1SPVvZuBq7h37aM2L9tR962FRyg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="loggedOut&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.9.1" />
@@ -224,7 +239,7 @@
       <workItem from="1546078670722" duration="175000" />
       <workItem from="1546078863714" duration="835000" />
       <workItem from="1546483239432" duration="2294000" />
-      <workItem from="1571465449788" duration="1755000" />
+      <workItem from="1571465449788" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1528390662552</created>
@@ -555,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544933367912</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="bcrypt upgrade to 3.0.4">
+      <created>1571467402435</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1571467402435</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -621,7 +643,8 @@
     <MESSAGE value="add face detection models" />
     <MESSAGE value="labeled images added" />
     <MESSAGE value="minor" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor" />
+    <MESSAGE value="bcrypt upgrade to 3.0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="bcrypt upgrade to 3.0.4" />
   </component>
   <component name="masterDetails">
     <states>
