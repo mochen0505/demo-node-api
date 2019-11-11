@@ -30,6 +30,12 @@ const UserProfileSchema = new Schema({
     city: {
         type: String,
     },
+    district: {
+        type: String,
+    },
+    county: {
+        type: String,
+    },
     role: {
         type: String,
         enum: ['client', 'admin'],

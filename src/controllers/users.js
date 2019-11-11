@@ -177,7 +177,7 @@ module.exports = {
         UserProfile.findOne({
             _id: userId,
         }).select(
-            "name mobile balance avatar gender birthday province city role created_at updated_at"
+            "name mobile balance avatar gender birthday province city district county role created_at updated_at"
         ).then(userProfile => {
             return res.send({
                 code: 1000,
@@ -195,7 +195,7 @@ module.exports = {
     editUserProfile: (req, res, next) => {
         // TODO: edit user name
         const {userId} = req.decoded;
-        const {gender, birthday, province, city} = req.body;
+        const {gender, birthday, province, city, district, county} = req.body;
         UserProfile.findOneAndUpdate({
             _id: userId,
         }, {
@@ -203,6 +203,8 @@ module.exports = {
             birthday: birthday,
             province: province,
             city: city,
+            district: district,
+            county: county
         }).then(userProfile => {
             return res.send({
                 code: 1000,
