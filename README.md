@@ -11,6 +11,12 @@ demo-node-api
     ```
 * Install [Mongodb](https://www.mongodb.com/download-center) and run your db on localhost:27017
 
+* For a bcrypt error, Open powershell with administrator privileges and run this command, then proceed with bcrypt installation
+
+    ```Bash
+    npm install --global --production windows-build-tools
+    ```
+
 ### Run the App ###
 
 * For WebStorm users:  
